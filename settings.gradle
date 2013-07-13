@@ -1,1 +1,1 @@
-include ':Fragment', ':SimpleFragment'
+include ':Fragment', ':SimpleFragment', ':ScreenLayout'
