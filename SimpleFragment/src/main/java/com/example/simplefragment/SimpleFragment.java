@@ -35,7 +35,7 @@ public class SimpleFragment extends Fragment {
             time = savedInstanceState.getString("datetime");
         }
         if(null == time){
-            time = new SimpleDateFormat("d MMM yyyy HH:mm:ss").format(new Date());
+            time = getDateTimeString(new Date());
         }
     }
 
